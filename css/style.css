@@ -1,0 +1,104 @@
+/*=====================COMMON STYLES START======================*/
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+a {
+  display: inline-flex;
+  text-decoration: none;
+  color: inherit;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Ubuntu", sans-serif;
+  color: #000000;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1030px;
+  width: 100%;
+  margin: 0 auto;
+  background: linear-gradient(
+    90deg,
+    rgb(201, 242, 255) 0%,
+    rgb(128, 208, 255) 100%
+  );
+}
+/*=====================COMMON STYLES END======================*/
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Ubuntu", sans-serif;
+  width: 600px;
+  height: 500px;
+  padding: 50px;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.box::before {
+  width: 30px;
+  height: 500px;
+  background-color: #0084ff;
+  content: " ";
+  position: absolute;
+  border-radius: 0 5px 5px 0;
+}
+.box::before {
+  top: 3.1em;
+  right: 40.7em;
+}
+.box-letter {
+  width: 450px;
+}
+.box-letter-title {
+  font-size: 30px;
+  line-height: 26px;
+  color: #0084ff;
+  margin-bottom: 50px;
+}
+.box-letter {
+  display: flex;
+  flex-direction: column;
+}
+.box-letter-select {
+  padding-left: 20px;
+  width: 450px;
+  height: 50px;
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 25px;
+  color: #000000;
+  box-sizing: border-box;
+  background: #dbdbdb;
+  border-radius: 3px;
+  border: none;
+}
+.remember {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.box-btn {
+  display: flex;
+  justify-content: center;
+  width: 450px;
+  padding: 17px 64px;
+  color: rgb(255, 255, 255);
+  background: #0084ff;
+  border-radius: 3px;
+  font-size: 14px;
+  line-height: 18px;
+  border: none;
+}
+.box-btn:hover {
+  box-shadow: 0 0 15px rgb(105, 105, 105);
+  transition: 0.2s;
+}

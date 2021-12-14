@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Summary</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="box">
+          <div class="box-letter">
+            <div class="box-letter-title">ACCOUNT LOGIN</div>
+              <form class="box-letter-forms">
+                <label class="required">
+                  <span>YSERNAME</span>
+                  <input
+                    class="box-letter-select"
+                    type="text"
+                    placeholder="Jonh"
+                    autofocus
+                    autocomplete="name"
+                    name="firstname"
+                    pattern="^[A-Z][a-z]{2,15}$"
+                    value=""
+                  />
+                </label>
+                <label class="required">
+                  <span>PASSWORD</span>
+                  <input
+                    class="box-letter-select"
+                    type="password"
+                    placeholder="Password"
+                    autocomplete="new-password"
+                    name="password"
+                    value=""
+                  />
+                </label>
+                <div class="remember">
+                  <label>
+                    <input type="checkbox"/>
+                    Remember Me
+                  </label>
+                  <p class="checkbox-text">Are you adult?</p>
+                </div>
+                <!-- <a class="box-letter-email-btn">LOGIN</a> -->
+                <button class="box-btn" type="submit" tabindex="1">
+                  LOGIN
+                </button>
+              </form>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
