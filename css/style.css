@@ -43,17 +43,17 @@ body {
   margin-top: 50px;
   margin-bottom: 50px;
 }
-.box::before {
+.box::after {
   width: 30px;
   height: 500px;
   background-color: #0084ff;
   content: " ";
-  position: absolute;
+  position: relative;
   border-radius: 0 5px 5px 0;
 }
-.box::before {
-  top: 3.1em;
-  right: 40.7em;
+.box::after {
+  top: 0;
+  right: -60px;
 }
 .box-letter {
   width: 450px;
@@ -75,6 +75,7 @@ body {
   font-size: 14px;
   line-height: 18px;
   margin-bottom: 25px;
+  margin-top: 10px;
   color: #000000;
   box-sizing: border-box;
   background: #dbdbdb;
